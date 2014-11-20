@@ -1,0 +1,54 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Adiciona Contato</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <form role="form" action="mvc" method="post">
+                <input type="text" name="logica" value="Insere" style="display: none"><br />
+                <div class="form-group">
+                    <label for="nome"> Nome: </label>
+                    <input class="form-control" type="text" name="nome" id="nome" />
+                </div>
+                <div class="form-group">
+                    <label for="cpf"> CPF: </label>
+                    <input class="form-control" id="cpf" type="text" name="cpf" />
+                </div>
+                <div class="form-group">
+                    <label for="end"> Endereço: </label>
+                    <input class="form-control" id="end" type="text" name="end" />
+                </div>
+                <div class="form-group">
+                    <label for=d"elito"> Delito: </label>
+                    <input class="form-control" id="delito" type="text" name="delito" />
+                </div>
+                <div class="form-group">
+                    <label for="data"> Data: </label>
+                    <input class="form-control" id="data" type="text" name="data" placeholder="yyyy-mm-dd" />
+                </div>
+                <div class="form-group">
+                    <label for="hora"> Hora: </label>    
+                    <input class="form-control" id="hora" type="text" name="hora" placeholder="hh:mm" />
+                </div>
+                <div class="form-group">
+                    <label for="local"> Local: </label>
+                    <input class="form-control" id="local" type="text" name="local" />
+                </div>
+                <div class="form-group">
+                    <label for="estado"> Estado: </label>
+                    <input class="form-control" id="local" type="text" name="estado"/>
+                </div>
+                <button type="submit" class="btn btn-default">Inserir</button>
+            </form>
+        </div>
+    </body>
+</html>
